@@ -151,11 +151,15 @@ img {
 }
 
 .menu-toggle {
-  display: none;
   font-size: 20px;
   margin-left: 20px;
 }
 
+@media screen and (min-width: 1024px) {
+  .menu-toggle {
+    display: none;
+  }
+}
 @media screen and (max-width: 1279px) {
   .header-logo {
     margin-right: 0;
